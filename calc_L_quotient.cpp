@@ -62,7 +62,7 @@ template<class T> std::pair<std::vector<int>,std::vector<std::vector<double>>> l
         M[i][n] = b[i];
     }
     int rank = GaussJordan(M, true);
-    std::cout<<"The dimension of H("<<p<<") is: "<<n-rank<<"\n";
+    /*std::cout<<"The dimension of H("<<p<<") is: "<<n-rank<<"\n";*/
     std::vector<int> basis;
     int j=0;
     for(int i=0;i<m;i++){
@@ -74,7 +74,7 @@ template<class T> std::pair<std::vector<int>,std::vector<std::vector<double>>> l
       j++;
     }
     //for (int row = rank; row < m; ++row) if (abs(M[row][n]) > EPS) return {-11111};
-    std::cout<<"The bases are: ";
+    /*std::cout<<"The bases are: ";
     for(int i=0;i<basis.size();i++){
       std::cout<<"(";
       if(basis[i]<n-1) std::cout<<basis[i];
@@ -82,7 +82,7 @@ template<class T> std::pair<std::vector<int>,std::vector<std::vector<double>>> l
       std::cout<<")";
       if(i<int(basis.size())-1) std::cout<<",";
       else std::cout<<"\n";
-    }
+    }*/
     
     std::vector<std::vector<double>> ans(m,std::vector<double>(basis.size(),0));
     j=0;
@@ -90,16 +90,16 @@ template<class T> std::pair<std::vector<int>,std::vector<std::vector<double>>> l
       while(j<n && M[i][j] < EPS) j++;
       if(j>=n) break;
       
-      std::cout<<"("<<j<<") = ";
-      if(std::count(M[i].begin(),M[i].end(),0) == n) std::cout<<"0\n";
+      //std::cout<<"("<<j<<") = ";
+      if(std::count(M[i].begin(),M[i].end(),0) == n) {}//std::cout<<"0\n";
       else{
         for(int k=0;k<basis.size();k++) if(abs(M[i][basis[k]]) > EPS){
           if(j!=basis[k]) ans[i][k] = -M[i][basis[k]];
           else ans[i][k] = M[i][basis[k]];
-          std::cout<<-M[i][basis[k]]<<" * (";
+          /*std::cout<<-M[i][basis[k]]<<" * (";
           if(basis[k]<n-1) std::cout<<basis[k];
           else std::cout<<"inf";
-          std::cout<<"),";
+          std::cout<<"),";*/
         }
       }
     }
@@ -138,12 +138,13 @@ bool is_Prime(int p){//pが素数かどうか判定
 
 std::vector<Matrix<int>> Heilbronn_Matrix(int p){
   //素数pでのHeilbronn Matrixの集合を返す
+  //ここらへんがバグっている？
   assert(is_Prime(p));
   std::vector<Matrix<int>> result;
   Matrix<int> init(2,2);
   init.val[0][0]=1,init.val[0][1]=0,init.val[1][0]=0,init.val[1][1]=p;
   result.push_back(init);
-	for(int r=-(p-1)/2;r<=p/2;r++)
+	for(int r=-p/2;r<(p+1)/2;r++)
 	{
 		int x1=p,x2=-r,y1=0,y2=1,a=-p,b=r;
 		Matrix<int> now(2,2);
@@ -172,15 +173,16 @@ std::vector<Matrix<int>> Heilbronn_Matrix(int p){
 	return result;
 }
 
-std::vector<double> Calc_Hecke_operator(int p,std::vector<int> &basis,std::vector<std::vector<double>> &state,int s){
+std::vector<double> Calc_Hecke_operator(int p,int q,std::vector<int> &basis,std::vector<std::vector<double>> &state,int s){
   //素数pでのHecke作用素の値を得る,sは代入するM-symbols
   std::vector<Matrix<int>> Heilbronn = Heilbronn_Matrix(p);
   std::vector<double> result(basis.size(),0);
   for(auto c : Heilbronn){
-    std::cerr<<c.val[0][0]<<" "<<c.val[0][1]<<" "<<c.val[1][0]<<" "<<c.val[1][1]<<"\n";
-    int m1 = (s*c.val[0][0] + c.val[1][0]) % p;
-    int m2 = (s*c.val[0][1] + c.val[1][1]) % p;
-    int num = convert_in_prime_forms(M_symbols{m1,m2},p);
+    //std::cerr<<c.val[0][0]<<" "<<c.val[0][1]<<" "<<c.val[1][0]<<" "<<c.val[1][1]<<"\n";
+    int m1 = (s*c.val[0][0] + c.val[1][0]) % q;
+    int m2 = (s*c.val[0][1] + c.val[1][1]) % q;
+    int num = convert_in_prime_forms(M_symbols{m1,m2},q);
+    //std::cerr<<num<<"\n";
     for(int i=0;i<basis.size();i++) result[i] += state[num][i];
   }
   return result;
@@ -188,7 +190,7 @@ std::vector<double> Calc_Hecke_operator(int p,std::vector<int> &basis,std::vecto
 
 int main(){
   int p;
-  std::cout<<"Input the prime p for which you want to know L(f,1)/Omega(f) of the newform f of level p:\n";
+  std::cout<<"Input the prime p for which you want to know L(f,1)/Omega(f) of the newform f of level p: ";
   std::cin>>p;
   if(!is_Prime(p)){
     std::cout<<p<<" is not a prime :(\n";
@@ -207,8 +209,8 @@ int main(){
   }
   std::vector<double> zeros(2*p,0);
   auto [basis,state] = linear_equation(p,mat,zeros);
-  auto result = Calc_Hecke_operator(2,basis,state,basis[0]);
-  for(int i=0;i<basis.size();i++) std::cout<<result[i]<<" ";
+  auto result = Calc_Hecke_operator(2,p,basis,state,basis[0]);
+  //for(int i=0;i<basis.size();i++) std::cout<<result[i]<<" ";
   std::cout<<"L(f,1)/Omega(f) = 1/"<<(3-result[0])<<"\n";
   return 0;
 }
