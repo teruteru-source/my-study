@@ -136,7 +136,9 @@ bool is_Prime(int p){//pが素数かどうか判定
   return true;
 }
 
-std::vector<Matrix<int>> Heilbronn_Matrix(int p){//素数pでのHeilbronn Matrixの集合を返す
+std::vector<Matrix<int>> Heilbronn_Matrix(int p){
+  //素数pでのHeilbronn Matrixの集合を返す
+  //ここらへんがバグっている？
   assert(is_Prime(p));
   std::vector<Matrix<int>> result;
   Matrix<int> init(2,2);
