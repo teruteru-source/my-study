@@ -177,7 +177,7 @@ bool is_rectangular(std::vector<int> &basis,std::vector<std::vector<double>> &st
   assert(basis.size()==3);
   std::vector<double> v_plus(2),v_minus(2);
   v_plus[0] = state[p-basis[1]][1]-1,v_plus[1] = -state[p-basis[0]][0]-1;
-  v_minus[0] = state[p-basis[1]][1]+1,v_plus[1] = -state[p-basis[0]][0]+1;
+  v_minus[0] = state[p-basis[1]][1]+1,v_minus[1] = -state[p-basis[0]][0]+1;
   
   while(v_plus[0]<v_minus[0]-EPS) v_plus[0] += 2;
   while(v_plus[0]-EPS>v_minus[0]) v_minus[0] += 2;
