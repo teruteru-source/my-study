@@ -73,16 +73,6 @@ template<class T> std::pair<std::vector<int>,std::vector<std::vector<double>>> l
       }
       j++;
     }
-    //for (int row = rank; row < m; ++row) if (abs(M[row][n]) > EPS) return {-11111};
-    /*std::cout<<"The bases are: ";
-    for(int i=0;i<basis.size();i++){
-      std::cout<<"(";
-      if(basis[i]<n-1) std::cout<<basis[i];
-      else std::cout<<"inf";
-      std::cout<<")";
-      if(i<int(basis.size())-1) std::cout<<",";
-      else std::cout<<"\n";
-    }*/
     
     std::vector<std::vector<double>> ans(m,std::vector<double>(basis.size(),0));
     j=0;
@@ -90,16 +80,11 @@ template<class T> std::pair<std::vector<int>,std::vector<std::vector<double>>> l
       while(j<n && M[i][j] < EPS) j++;
       if(j>=n) break;
       
-      //std::cout<<"("<<j<<") = ";
-      if(std::count(M[i].begin(),M[i].end(),0) == n) {}//std::cout<<"0\n";
+      if(std::count(M[i].begin(),M[i].end(),0) == n) {}
       else{
         for(int k=0;k<basis.size();k++) if(abs(M[i][basis[k]]) > EPS){
           if(j!=basis[k]) ans[i][k] = -M[i][basis[k]];
           else ans[i][k] = M[i][basis[k]];
-          /*std::cout<<-M[i][basis[k]]<<" * (";
-          if(basis[k]<n-1) std::cout<<basis[k];
-          else std::cout<<"inf";
-          std::cout<<"),";*/
         }
       }
     }
@@ -138,7 +123,6 @@ bool is_Prime(int p){//pが素数かどうか判定
 
 std::vector<Matrix<int>> Heilbronn_Matrix(int p){
   //素数pでのHeilbronn Matrixの集合を返す
-  //ここらへんがバグっている？
   assert(is_Prime(p));
   std::vector<Matrix<int>> result;
   Matrix<int> init(2,2);
@@ -164,10 +148,10 @@ std::vector<Matrix<int>> Heilbronn_Matrix(int p){
 			int y3 = q*y2-y1;
 			y1=y2,y2=y3;
 			now.val[0][0] = x1;
-		  now.val[0][1] = x2;
-		  now.val[1][0] = y1;
-		  now.val[1][1] = y2;
-		  result.push_back(now);
+		  	now.val[0][1] = x2;
+		  	now.val[1][0] = y1;
+		  	now.val[1][1] = y2;
+		  	result.push_back(now);
 		}
 	}
 	return result;
@@ -186,6 +170,20 @@ std::vector<double> Calc_Hecke_operator(int p,int q,std::vector<int> &basis,std:
     for(int i=0;i<basis.size();i++) result[i] += state[num][i];
   }
   return result;
+}
+
+bool is_rectangular(std::vector<int> &basis,std::vector<std::vector<double>> &state,int p){
+  //単位格子がrectangularかどうか返す
+  assert(basis.size()==3);
+  std::vector<double> v_plus(2),v_minus(2);
+  v_plus[0] = state[p-basis[1]][1]-1,v_plus[1] = -state[p-basis[0]][0]-1;
+  v_minus[0] = state[p-basis[1]][1]+1,v_plus[1] = -state[p-basis[0]][0]+1;
+  
+  while(v_plus[0]<v_minus[0]-EPS) v_plus[0] += 2;
+  while(v_plus[0]-EPS>v_minus[0]) v_minus[0] += 2;
+  while(v_plus[1]<v_minus[1]-EPS) v_plus[1] += 2;
+  while(v_plus[1]-EPS>v_minus[1]-EPS) v_minus[1] += 2;
+  return !(abs(v_plus[0]-v_minus[0])<EPS && abs(v_plus[1]-v_minus[1])<EPS);
 }
 
 int main(){
@@ -209,8 +207,9 @@ int main(){
   }
   std::vector<double> zeros(2*p,0);
   auto [basis,state] = linear_equation(p,mat,zeros);
+  if(is_rectangular(basis,state,p)) std::cout<<"The period lattice is rectangular\n";
+  else std::cout<<"The period lattice is non-rectangular\n";
   auto result = Calc_Hecke_operator(2,p,basis,state,basis[0]);
-  //for(int i=0;i<basis.size();i++) std::cout<<result[i]<<" ";
-  std::cout<<"L(f,1)/Omega(f) = 1/"<<(3-result[0])<<"\n";
+  std::cout<<"L(f,1)/Omega(f) = 1/"<<(3-result[0])<<"\n";//1/(1+p-a_p(f)),p=2より
   return 0;
 }
