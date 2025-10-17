@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <cmath>
 #include <cassert>
+#include "fraction.hpp"
 
 fraction abs(fraction f){return fraction(abs(f.numer),f.denom);}
 
