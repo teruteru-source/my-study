@@ -1,13 +1,10 @@
-//コードはC++で記述
-
 #include <iostream>
 #include <vector>
 #include <algorithm>
 #include <cmath>
 #include <cassert>
 
-using D = double;
-const D EPS = 1e-10;//丸め誤差を考える
+fraction abs(fraction f){return fraction(abs(f.numer),f.denom);}
 
 template<class T> struct Matrix {//行列の構造体
     std::vector<std::vector<T> > val;
@@ -26,10 +23,10 @@ template<class T> int GaussJordan(Matrix<T> &A, bool is_extended = false) {
         if (is_extended && col == n-1) break;
 
         int pivot = -1;
-        T ma = EPS;
+        T ma = T(0);
         for (int row = rank; row < m; ++row) {
             if (abs(A[row][col]) > ma) {
-                ma = abs(A[row][col]);
+                ma = A[row][col];
                 pivot = row;
             }
         }
@@ -41,7 +38,7 @@ template<class T> int GaussJordan(Matrix<T> &A, bool is_extended = false) {
         for (int col2 = 0; col2 < n; ++col2) A[rank][col2] /= fac;
 
         for (int row = 0; row < m; ++row) {
-            if (row != rank && abs(A[row][col]) > EPS) {
+            if (row != rank && A[row][col] != 0) {
                 auto fac = A[row][col];
                 for (int col2 = 0; col2 < n; ++col2) {
                     A[row][col2] -= A[rank][col2] * fac;
@@ -53,7 +50,7 @@ template<class T> int GaussJordan(Matrix<T> &A, bool is_extended = false) {
     return rank;
 }
 
-template<class T> std::pair<std::vector<int>,std::vector<std::vector<double>>> linear_equation(int p,Matrix<T> A, std::vector<T> b) {
+template<class T> std::pair<std::vector<int>,std::vector<std::vector<T>>> linear_equation(int p,Matrix<T> A, std::vector<T> b) {
   //連立1次方程式を解いて基底および関係式を返す
     int m = A.size(), n = A[0].size();
     Matrix<T> M(m, n + 1);
@@ -62,27 +59,26 @@ template<class T> std::pair<std::vector<int>,std::vector<std::vector<double>>> l
         M[i][n] = b[i];
     }
     int rank = GaussJordan(M, true);
-    /*std::cout<<"The dimension of H("<<p<<") is: "<<n-rank<<"\n";*/
+    //std::cout<<"The dimension of H("<<p<<") is: "<<n-rank<<"\n";
     std::vector<int> basis;
     int j=0;
     for(int i=0;i<m;i++){
       if(j>=n) break;
-      while(j<n && M[i][j] < EPS){
+      while(j<n && M[i][j] == 0){
         basis.push_back(j);
         j++;
       }
       j++;
     }
-    
-    std::vector<std::vector<double>> ans(m,std::vector<double>(basis.size(),0));
+    std::vector<std::vector<T>> ans(m,std::vector<T>(basis.size(),0));
     j=0;
-    for(int i=0;i<M.size();i++){
-      while(j<n && M[i][j] < EPS) j++;
+    for(int i=0;i<int(M.size());i++){
+      while(j<n && M[i][j] == 0) j++;
       if(j>=n) break;
       
-      if(std::count(M[i].begin(),M[i].end(),0) == n) {}
+      if(std::count(M[i].begin(),M[i].end(),fraction(0)) == n) {}
       else{
-        for(int k=0;k<basis.size();k++) if(abs(M[i][basis[k]]) > EPS){
+        for(int k=0;k<int(basis.size());k++) if(M[i][basis[k]] == 0){
           if(j!=basis[k]) ans[i][k] = -M[i][basis[k]];
           else ans[i][k] = M[i][basis[k]];
         }
@@ -157,33 +153,28 @@ std::vector<Matrix<int>> Heilbronn_Matrix(int p){
 	return result;
 }
 
-std::vector<double> Calc_Hecke_operator(int p,int q,std::vector<int> &basis,std::vector<std::vector<double>> &state,int s){
+std::vector<fraction> Calc_Hecke_operator(int p,int q,std::vector<int> &basis,std::vector<std::vector<fraction>> &state,int s){
   //素数pでのHecke作用素の値を得る,sは代入するM-symbols
   std::vector<Matrix<int>> Heilbronn = Heilbronn_Matrix(p);
-  std::vector<double> result(basis.size(),0);
+  std::vector<fraction> result(basis.size(),0);
   for(auto c : Heilbronn){
     //std::cerr<<c.val[0][0]<<" "<<c.val[0][1]<<" "<<c.val[1][0]<<" "<<c.val[1][1]<<"\n";
     int m1 = (s*c.val[0][0] + c.val[1][0]) % q;
     int m2 = (s*c.val[0][1] + c.val[1][1]) % q;
     int num = convert_in_prime_forms(M_symbols{m1,m2},q);
     //std::cerr<<num<<"\n";
-    for(int i=0;i<basis.size();i++) result[i] += state[num][i];
+    for(int i=0;i<int(basis.size());i++) result[i] += state[num][i];
   }
   return result;
 }
 
-bool is_rectangular(std::vector<int> &basis,std::vector<std::vector<double>> &state,int p){
+bool is_rectangular(std::vector<int> &basis,std::vector<std::vector<fraction>> &state,int p){
   //単位格子がrectangularかどうか返す
-  assert(basis.size()==3);
-  std::vector<double> v_plus(2),v_minus(2);
+  std::vector<fraction> v_plus(2),v_minus(2);
   v_plus[0] = state[p-basis[1]][1]-1,v_plus[1] = -state[p-basis[0]][0]-1;
   v_minus[0] = state[p-basis[1]][1]+1,v_minus[1] = -state[p-basis[0]][0]+1;
   
-  while(v_plus[0]<v_minus[0]-EPS) v_plus[0] += 2;
-  while(v_plus[0]-EPS>v_minus[0]) v_minus[0] += 2;
-  while(v_plus[1]<v_minus[1]-EPS) v_plus[1] += 2;
-  while(v_plus[1]-EPS>v_minus[1]-EPS) v_minus[1] += 2;
-  return !(abs(v_plus[0]-v_minus[0])<EPS && abs(v_plus[1]-v_minus[1])<EPS);
+  return (v_plus[0]-v_minus[0])%2 == 0 && (v_plus[1]-v_minus[1])%2 == 0;
 }
 
 int main(){
@@ -194,7 +185,7 @@ int main(){
     std::cout<<p<<" is not a prime :(\n";
     return 1;
   }
-  Matrix<double> mat(2*p,p+1);
+  Matrix<fraction> mat(2*p,p+1);
   for(int i=0;i<p;i++){//二項関係式
     mat.val[i][i] = 1;
     mat.val[i][convert_in_prime_forms(M_symbols{-1,i},p)] = 1;
@@ -205,11 +196,12 @@ int main(){
     mat.val[i+p][convert_in_prime_forms(M_symbols{i+1,-i},p)] = 1;
     mat.val[i+p][convert_in_prime_forms(M_symbols{1,-i-1},p)] = 1;
   }
-  std::vector<double> zeros(2*p,0);
+  std::vector<fraction> zeros(2*p,0);
   auto [basis,state] = linear_equation(p,mat,zeros);
   if(is_rectangular(basis,state,p)) std::cout<<"The period lattice is rectangular\n";
   else std::cout<<"The period lattice is non-rectangular\n";
   auto result = Calc_Hecke_operator(2,p,basis,state,basis[0]);
-  std::cout<<"L(f,1)/Omega(f) = 1/"<<(3-result[0])<<"\n";//1/(1+p-a_p(f)),p=2より
+  assert(result[0].denom == 1);
+  std::cout<<"L(f,1)/Omega(f) = 1/"<<(3-result[0].numer)<<"\n";//1/(1+p-a_p(f)),p=2より
   return 0;
 }
