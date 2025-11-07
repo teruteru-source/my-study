@@ -35,20 +35,26 @@ template<class T> int GaussJordan(Matrix<T> &A, bool is_extended = false) {
 
         swap(A[pivot], A[rank]);
 
-        auto fac = A[rank][col];
+        T fac = A[rank][col];
         for (int col2 = 0; col2 < n; ++col2) A[rank][col2] /= fac;
 
         for (int row = 0; row < m; ++row) {
             if (row != rank && A[row][col] != 0) {
-                auto fac = A[row][col];
+                fac = A[row][col];
                 for (int col2 = 0; col2 < n; ++col2) {
                     A[row][col2] -= A[rank][col2] * fac;
                 }
             }
         }
         ++rank;
-    }
-    return rank;
+      /*for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+          std::cerr<<A[i][j]<<" ";
+        }
+      std::cerr<<"\n";
+    }*/
+  }
+  return rank;
 }
 
 template<class T> std::pair<std::vector<int>,std::vector<std::vector<T>>> linear_equation(int p,Matrix<T> A, std::vector<T> b) {
@@ -60,6 +66,12 @@ template<class T> std::pair<std::vector<int>,std::vector<std::vector<T>>> linear
         M[i][n] = b[i];
     }
     int rank = GaussJordan(M, true);
+    for(int i=0;i<m;i++){
+    for(int j=0;j<=n;j++){
+      std::cerr<<M[i][j]<<" ";
+    }
+    std::cerr<<"\n";
+  }
     //std::cout<<"The dimension of H("<<p<<") is: "<<n-rank<<"\n";
     std::vector<int> basis;
     int j=0;
@@ -72,18 +84,20 @@ template<class T> std::pair<std::vector<int>,std::vector<std::vector<T>>> linear
       j++;
     }
     std::vector<std::vector<T>> ans(m,std::vector<T>(basis.size(),0));
-    j=0;
-    for(int i=0;i<int(M.size());i++){
-      while(j<n && M[i][j] == 0) j++;
-      if(j>=n) break;
-      
-      if(std::count(M[i].begin(),M[i].end(),fraction(0)) == n) {}
+    for(int i=0;i<m;i++){
+      if(std::count(M[i].begin(),M[i].end(),fraction(0)) == n+1) break;
       else{
-        for(int k=0;k<int(basis.size());k++) if(M[i][basis[k]] == 0){
-          if(j!=basis[k]) ans[i][k] = -M[i][basis[k]];
+        for(int k=0;k<int(basis.size());k++) if(M[i][basis[k]] != 0){
+          if(i!=basis[k]) ans[i][k] = -M[i][basis[k]];
           else ans[i][k] = M[i][basis[k]];
         }
       }
+    }
+    for(int i=0;i<m;i++){
+      for(int j=0;j<basis.size();j++){
+        std::cerr<<ans[i][j]<<" ";
+      }
+      std::cerr<<"\n";
     }
     return {basis,ans};
 }
@@ -145,10 +159,10 @@ std::vector<Matrix<int>> Heilbronn_Matrix(int p){
 			int y3 = q*y2-y1;
 			y1=y2,y2=y3;
 			now.val[0][0] = x1;
-		  	now.val[0][1] = x2;
-		  	now.val[1][0] = y1;
-		  	now.val[1][1] = y2;
-		  	result.push_back(now);
+		  now.val[0][1] = x2;
+		  now.val[1][0] = y1;
+		  now.val[1][1] = y2;
+		  result.push_back(now);
 		}
 	}
 	return result;
@@ -171,11 +185,13 @@ std::vector<fraction> Calc_Hecke_operator(int p,int q,std::vector<int> &basis,st
 
 bool is_rectangular(std::vector<int> &basis,std::vector<std::vector<fraction>> &state,int p){
   //単位格子がrectangularかどうか返す
+  assert(state[0].size()>1);
   std::vector<fraction> v_plus(2),v_minus(2);
-  v_plus[0] = state[p-basis[1]][1]-1,v_plus[1] = -state[p-basis[0]][0]-1;
-  v_minus[0] = state[p-basis[1]][1]+1,v_minus[1] = -state[p-basis[0]][0]+1;
-  
-  return (v_plus[0]-v_minus[0])%2 == 0 && (v_plus[1]-v_minus[1])%2 == 0;
+  v_plus[0] = state[p-basis[1]][1]-1;
+  v_plus[1] = -state[p-basis[0]][0]-1;
+  v_minus[0] = state[p-basis[1]][1]+1;
+  v_minus[1] = -state[p-basis[0]][0]+1;
+  return !(((v_plus[0]-v_minus[0])%2) == 0 && ((v_plus[1]-v_minus[1])%2) == 0);
 }
 
 int main(){
@@ -188,17 +204,18 @@ int main(){
   }
   Matrix<fraction> mat(2*p,p+1);
   for(int i=0;i<p;i++){//二項関係式
-    mat.val[i][i] = 1;
-    mat.val[i][convert_in_prime_forms(M_symbols{-1,i},p)] = 1;
+    mat.val[i][i] = fraction(1);
+    mat.val[i][convert_in_prime_forms(M_symbols{-1,i},p)] = fraction(1);
   }
   
   for(int i=0;i<p;i++){//三項関係式
-    mat.val[i+p][i] = 1;
-    mat.val[i+p][convert_in_prime_forms(M_symbols{i+1,-i},p)] = 1;
-    mat.val[i+p][convert_in_prime_forms(M_symbols{1,-i-1},p)] = 1;
+    mat.val[i+p][i] = fraction(1);
+    mat.val[i+p][convert_in_prime_forms(M_symbols{i+1,-i},p)] = fraction(1);
+    mat.val[i+p][convert_in_prime_forms(M_symbols{1,-i-1},p)] = fraction(1);
   }
   std::vector<fraction> zeros(2*p,0);
   auto [basis,state] = linear_equation(p,mat,zeros);
+  
   if(is_rectangular(basis,state,p)) std::cout<<"The period lattice is rectangular\n";
   else std::cout<<"The period lattice is non-rectangular\n";
   auto result = Calc_Hecke_operator(2,p,basis,state,basis[0]);
