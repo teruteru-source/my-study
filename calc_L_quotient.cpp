@@ -3,9 +3,13 @@
 #include <algorithm>
 #include <cmath>
 #include <cassert>
+#include <numeric>
+#include <iomanip>
 #include "fraction.hpp"
 
-fraction abs(fraction f){return fraction(abs(f.numer),f.denom);}
+std::vector<int> Parametrization_Degrees = {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,-1,-1,1,1,-1,1,-1,1,1,1,-1,-1,1,-1,2,1,-1,-1,2};
+
+fraction abs(fraction &x){return std::max(-x,x);}
 
 template<class T> struct Matrix {//行列の構造体
     std::vector<std::vector<T> > val;
@@ -57,7 +61,7 @@ template<class T> int GaussJordan(Matrix<T> &A, bool is_extended = false) {
   return rank;
 }
 
-template<class T> std::pair<std::vector<int>,std::vector<std::vector<T>>> linear_equation(int p,Matrix<T> A, std::vector<T> b) {
+template<class T> std::pair<std::vector<int>,std::vector<std::vector<T>>> linear_equation(Matrix<T> A, std::vector<T> b) {
   //連立1次方程式を解いて基底および関係式を返す
     int m = A.size(), n = A[0].size();
     Matrix<T> M(m, n + 1);
@@ -66,12 +70,12 @@ template<class T> std::pair<std::vector<int>,std::vector<std::vector<T>>> linear
         M[i][n] = b[i];
     }
     int rank = GaussJordan(M, true);
-    for(int i=0;i<m;i++){
-    for(int j=0;j<=n;j++){
-      std::cerr<<M[i][j]<<" ";
-    }
-    std::cerr<<"\n";
-  }
+    /*for(int i=0;i<m;i++){
+      for(int j=0;j<=n;j++){
+        std::cerr<<M[i][j]<<" ";
+      }
+      std::cerr<<"\n";
+    }*/
     //std::cout<<"The dimension of H("<<p<<") is: "<<n-rank<<"\n";
     std::vector<int> basis;
     int j=0;
@@ -83,22 +87,26 @@ template<class T> std::pair<std::vector<int>,std::vector<std::vector<T>>> linear
       }
       j++;
     }
-    std::vector<std::vector<T>> ans(m,std::vector<T>(basis.size(),0));
+    /*for(auto c : basis) std::cerr<<c<<" ";
+    std::cerr<<"\n";*/
+    std::vector<std::vector<T>> ans(n+1,std::vector<T>(basis.size(),0));
     for(int i=0;i<m;i++){
-      if(std::count(M[i].begin(),M[i].end(),fraction(0)) == n+1) break;
+      if(std::count(M[i].begin(),M[i].end(),T(0)) == n+1) break;
       else{
-        for(int k=0;k<int(basis.size());k++) if(M[i][basis[k]] != 0){
-          if(i!=basis[k]) ans[i][k] = -M[i][basis[k]];
-          else ans[i][k] = M[i][basis[k]];
+        int B = -1;
+        for(int j=0;j<=n;j++) if(M[i][j] != T(0) && std::count(basis.begin(),basis.end(),j) == 0) B = j;
+        for(int k=0;k<int(basis.size());k++){
+          ans[B][k] = -M[i][basis[k]] / M[i][B];
         }
       }
     }
-    for(int i=0;i<m;i++){
+    for(int i=0;i<basis.size();i++) ans[basis[i]][i] = T(1);
+    /*for(int i=0;i<n+1;i++){
       for(int j=0;j<basis.size();j++){
         std::cerr<<ans[i][j]<<" ";
       }
       std::cerr<<"\n";
-    }
+    }*/
     return {basis,ans};
 }
 
@@ -130,6 +138,50 @@ M_symbols convert_in_normal_forms(int x,int p){//(a)の形のM-Symbolsを普通�
 bool is_Prime(int p){//pが素数かどうか判定
   for(int i=2;i*i<=p;i++) if(p % i == 0) return false;
   return true;
+}
+
+struct Modular_Symbols{fraction num1,num2;};
+
+M_symbols Modular_Symbol_to_M_Symbols(Modular_Symbols M){
+  return M_symbols{(M.num1.denominator * M.num2.numerator - M.num1.numerator * M.num2.denominator)*M.num2.denominator,M.num1.denominator};
+}
+
+std::vector<int> Modular_Symbols_to_M_Symbols(Modular_Symbols M,int p){
+  assert(is_Prime(p));
+  std::vector<fraction> res1 = M.num1.Construct_Fractional_Convergence_Sequence();
+  std::vector<fraction> res2 = M.num2.Construct_Fractional_Convergence_Sequence();
+  //for(auto c : res2) std::cerr<<c<<"\n";
+  int l1 = res1.size(), l2 = res2.size();
+  std::vector<int> cnt(p+1,0);
+  //for(int i=0;i<l2-1;i++) cerr<<Modular_Symbol_to_M_Symbols(Modular_Symbols{res2[i],res2[i+1]},p)<<"\n";
+  for(int i=0;i<l2-1;i++){
+    M_symbols ms = Modular_Symbol_to_M_Symbols(Modular_Symbols{res2[i],res2[i+1]});
+    cnt[convert_in_prime_forms(ms,p)]++;
+  }
+  for(int i=0;i<l1-1;i++){
+    M_symbols ms = Modular_Symbol_to_M_Symbols(Modular_Symbols{res1[i],res1[i+1]});
+    cnt[convert_in_prime_forms(ms,p)]--;
+  }
+  return cnt;
+}
+
+int Legendre(int a,int p){//Legendre記号をEuler規準で計算
+  assert(is_Prime(p) && p>2);
+  if(a%p == 0) return 0;
+  else{
+    int res = mod_pow(a,(p-1)/2,p);
+    if(res==p-1) res -= p;
+    return res;
+  }
+}
+
+std::vector<int> gamma_l(int p,int L){
+  std::vector<int> cnt(p+1,0);
+  for(int l=1;l<L;l++){
+    std::vector<int> pcnt = Modular_Symbols_to_M_Symbols(Modular_Symbols{fraction(0),fraction(l,L)},p);
+    for(int i=0;i<=p;i++) cnt[i] += Legendre(l,p) * pcnt[i];
+  }
+  return cnt;
 }
 
 std::vector<Matrix<int>> Heilbronn_Matrix(int p){
@@ -183,43 +235,74 @@ std::vector<fraction> Calc_Hecke_operator(int p,int q,std::vector<int> &basis,st
   return result;
 }
 
-bool is_rectangular(std::vector<int> &basis,std::vector<std::vector<fraction>> &state,int p){
+bool is_rectangular(std::vector<int> &basis,std::vector<std::vector<fraction>> &state,std::vector<fraction> &v_plus, std::vector<fraction> &v_minus,int p){
   //単位格子がrectangularかどうか返す
   assert(state[0].size()>1);
-  std::vector<fraction> v_plus(2),v_minus(2);
-  v_plus[0] = state[p-basis[1]][1]-1;
-  v_plus[1] = -state[p-basis[0]][0]-1;
-  v_minus[0] = state[p-basis[1]][1]+1;
-  v_minus[1] = -state[p-basis[0]][0]+1;
-  return !(((v_plus[0]-v_minus[0])%2) == 0 && ((v_plus[1]-v_minus[1])%2) == 0);
+  v_plus[1] = state[p-basis[0]][1]+1;
+  v_plus[0] = -state[p-basis[1]][1];
+  v_minus[1] = state[p-basis[0]][1]-1;
+  v_minus[0] = -state[p-basis[1]][1];
+  return ((v_plus[0]-v_minus[0])%2) == 0 && ((v_plus[1]-v_minus[1])%2) == 0;
 }
 
 int main(){
-  int p;
-  std::cout<<"Input the prime p for which you want to know L(f,1)/Omega(f) of the newform f of level p: ";
-  std::cin>>p;
+  std::cout<<
+  "Please Input the prime numbers p and l for which you wish to know the value, L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)). :\n";
+  int p,l;
+  std::cin>>p>>l;
   if(!is_Prime(p)){
-    std::cout<<p<<" is not a prime :(\n";
+    std::cout<<"p is not a prime :(\n";
+    return 1;
+  }
+  if(!is_Prime(l) || l%4!=3){
+    std::cout<<"l is not valid :(\n";
     return 1;
   }
   Matrix<fraction> mat(2*p,p+1);
   for(int i=0;i<p;i++){//二項関係式
+    //std::cout<<i<<" "<<convert_in_prime_forms(M_symbols{-1,i},p)<<"\n";
     mat.val[i][i] = fraction(1);
     mat.val[i][convert_in_prime_forms(M_symbols{-1,i},p)] = fraction(1);
   }
   
   for(int i=0;i<p;i++){//三項関係式
+    //std::cout<<i<<" "<<convert_in_prime_forms(M_symbols{i+1,-i},p)<<" "<<convert_in_prime_forms(M_symbols{1,-i-1},p)<<"\n";
     mat.val[i+p][i] = fraction(1);
     mat.val[i+p][convert_in_prime_forms(M_symbols{i+1,-i},p)] = fraction(1);
     mat.val[i+p][convert_in_prime_forms(M_symbols{1,-i-1},p)] = fraction(1);
   }
-  std::vector<fraction> zeros(2*p,0);
-  auto [basis,state] = linear_equation(p,mat,zeros);
   
-  if(is_rectangular(basis,state,p)) std::cout<<"The period lattice is rectangular\n";
+  std::vector<fraction> zeros(2*p,0);
+  auto [basis,state] = linear_equation(mat,zeros);
+  std::vector<fraction> v_plus(2),v_minus(2);
+  bool rectangular = is_rectangular(basis,state,v_plus,v_minus,p);
+  std::cout<<v_minus[0]<<" "<<v_minus[1]<<"\n";
+  std::cout<<v_plus[0]<<" "<<v_plus[1]<<"\n";
+  if(rectangular) std::cout<<"The period lattice is rectangular\n";
   else std::cout<<"The period lattice is non-rectangular\n";
-  auto result = Calc_Hecke_operator(2,p,basis,state,basis[0]);
-  assert(result[0].denom == 1);
-  std::cout<<"L(f,1)/Omega(f) = 1/"<<(3-result[0].numer)<<"\n";//1/(1+p-a_p(f)),p=2より
+  auto res = Calc_Hecke_operator(2,p,basis,state,basis[0]);
+  assert(res[0].denominator == 1);
+  fraction L_f1_over_Omega_f = fraction(1,(3-res[0].numerator));
+  //==1/(1+p-a_p(f)),p=2より
+  std::cout<<"L(f,1)/Omega(f) = "<<L_f1_over_Omega_f<<"\n";
+  
+  std::vector<int> cnt = gamma_l(p,l);
+  for(int i=0;i<=p;i++) std::cout<<cnt[i]<<" ";
+  std::cout<<"\n";
+  std::vector<fraction> bases(basis.size(),0);
+  for(int i=0;i<=p;i++) for(int j=0;j<basis.size();j++) bases[j] += (state[i][j] * cnt[i]);
+  for(int i=0;i<basis.size();i++) std::cout<<bases[i]<<" ";
+  std::cout<<"\n";
+  fraction m_minus = 0;
+  for(int i=0;i<ssize(basis)-1;i++) m_minus += v_minus[i] * bases[i];
+  std::cout<<"m_minus = "<<m_minus<<"\n";
+  
+  fraction result = L_f1_over_Omega_f.inv() * fraction(1,p) * Parametrization_Degrees[p] * m_minus.inv();
+  if(rectangular) result *= 2;
+  else result *= 4;
+  
+  std::cout<<"L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) = "<<result<<"*pi*sqrt("<<l<<")\n";
+  double value = result.val() * std::numbers::pi * sqrt(l);
+  std::cout<<std::fixed<<std::setprecision(10)<<"= "<<value<<"\n";
   return 0;
 }
