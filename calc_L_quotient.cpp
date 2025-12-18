@@ -242,7 +242,7 @@ bool is_rectangular(std::vector<int> &basis,std::vector<std::vector<fraction>> &
   v_plus[0] = -state[p-basis[1]][1];
   v_minus[1] = state[p-basis[0]][1]-1;
   v_minus[0] = -state[p-basis[1]][1];
-  return ((v_plus[0]-v_minus[0])%2) == 0 && ((v_plus[1]-v_minus[1])%2) == 0;
+  return !(((v_plus[0]-v_minus[0])%2) == 0 && ((v_plus[1]-v_minus[1])%2) == 0);
 }
 
 int main(){
