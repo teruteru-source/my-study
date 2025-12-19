@@ -383,7 +383,7 @@ int main(){
   else std::cout<<"The period lattice is non-rectangular\n";
   auto res = Calc_Hecke_operator(2,p,basis,state,basis[0]);
   assert(res[0].denominator == 1);
-  fraction L_f1_over_Omega_f = fraction(1,(3-res[0].numerator))/2;
+  fraction L_f1_over_Omega_f = fraction(1,(3-res[0].numerator)).inv()/2;
   //==n(p,f)/(1+p-a_p(f)),p=2より
   std::cout<<"L(f,1)/Omega(f) = "<<L_f1_over_Omega_f<<"\n";
   
@@ -401,7 +401,7 @@ int main(){
     std::cout<<"m_minus = 0";
     return 0;
   }
-  fraction result = L_f1_over_Omega_f.inv() * fraction(1,p) * Parametrization_Degrees[p] * m_minus.inv();
+  fraction result = L_f1_over_Omega_f * fraction(1,p) * Parametrization_Degrees[p] * m_minus.inv();
   if(rectangular) result *= 2;
   else result *= 4;
   
