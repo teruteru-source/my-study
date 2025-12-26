@@ -1,0 +1,922 @@
+The condition of 3 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7) = -3/19*pi*sqrt(7)
+= -1.3124009814
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 11) = -3/19*pi*sqrt(11)
+= -1.6451816962
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 23) = 3/38*pi*sqrt(23)
+= 1.1894644012
+The condition of 31 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 43) = 3/38*pi*sqrt(43)
+= 1.6263790022
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 47) = -3/76*pi*sqrt(47)
+= -0.8501713472
+The condition of 59 is invalid
+The condition of 67 is invalid
+The condition of 71 is invalid
+The condition of 79 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 83) = -1/19*pi*sqrt(83)
+= -1.5063826949
+The condition of 103 is invalid
+The condition of 107 is invalid
+The condition of 127 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 131) = -1/19*pi*sqrt(131)
+= -1.8924827063
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 139) = 3/19*pi*sqrt(139)
+= 5.8482364948
+The condition of 151 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 163) = 3/38*pi*sqrt(163)
+= 3.1665134204
+The condition of 167 is invalid
+The condition of 179 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 191) = 6/247*pi*sqrt(191)
+= 1.0546803471
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 199) = -6/19*pi*sqrt(199)
+= -13.9950373010
+The condition of 211 is invalid
+The condition of 223 is invalid
+The condition of 227 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 239) = -6/95*pi*sqrt(239)
+= -3.0674427666
+m_minus = 0L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 263) = -6/209*pi*sqrt(263)
+= -1.4626240532
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 271) = 3/152*pi*sqrt(271)
+= 1.0207330689
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 283) = -6/323*pi*sqrt(283)
+= -0.9817294485
+The condition of 307 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 311) = 6/475*pi*sqrt(311)
+= 0.6998221883
+The condition of 331 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 347) = -2/95*pi*sqrt(347)
+= -1.2320291983
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 359) = 3/95*pi*sqrt(359)
+= 1.8797268564
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 367) = -3/38*pi*sqrt(367)
+= -4.7513887266
+The condition of 379 is invalid
+The condition of 383 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 419) = 3/76*pi*sqrt(419)
+= 2.5384262292
+The condition of 431 is invalid
+The condition of 439 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 443) = 3/152*pi*sqrt(443)
+= 1.3050567660
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 463) = -3/209*pi*sqrt(463)
+= -0.9703207904
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 467) = 6/551*pi*sqrt(467)
+= 0.7392783101
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 479) = 3/95*pi*sqrt(479)
+= 2.1712772343
+The condition of 487 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 491) = -6/779*pi*sqrt(491)
+= -0.5361723469
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 499) = -3/19*pi*sqrt(499)
+= -11.0807153690
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 503) = -6/437*pi*sqrt(503)
+= -0.9673946441
+The condition of 523 is invalid
+The condition of 547 is invalid
+The condition of 563 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 571) = -6/475*pi*sqrt(571)
+= -0.9482559306
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 587) = -6/209*pi*sqrt(587)
+= -2.1851129335
+The condition of 599 is invalid
+The condition of 607 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 619) = 3/437*pi*sqrt(619)
+= 0.5365806595
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 631) = -6/323*pi*sqrt(631)
+= -1.4659301609
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 643) = -3/95*pi*sqrt(643)
+= -2.5156661645
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 647) = -3/95*pi*sqrt(647)
+= -2.5234788112
+The condition of 659 is invalid
+The condition of 683 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 691) = 6/589*pi*sqrt(691)
+= 0.8412495637
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 719) = 6/779*pi*sqrt(719)
+= 0.6488257996
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 727) = 1/38*pi*sqrt(727)
+= 2.2291201697
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 739) = 3/266*pi*sqrt(739)
+= 0.9631894344
+The condition of 743 is invalid
+The condition of 751 is invalid
+The condition of 787 is invalid
+The condition of 811 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 823) = 1/19*pi*sqrt(823)
+= 4.7434703398
+The condition of 827 is invalid
+The condition of 839 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 859) = 3/152*pi*sqrt(859)
+= 1.8172895170
+The condition of 863 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 883) = 3/19*pi*sqrt(883)
+= 14.7400133971
+The condition of 887 is invalid
+The condition of 907 is invalid
+The condition of 911 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 919) = -2/57*pi*sqrt(919)
+= -3.3416639106
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 947) = -3/209*pi*sqrt(947)
+= -1.3877135562
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 967) = 1/38*pi*sqrt(967)
+= 2.5708664286
+The condition of 971 is invalid
+The condition of 983 is invalid
+The condition of 991 is invalid
+The condition of 1019 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1031) = -2/133*pi*sqrt(1031)
+= -1.5169021261
+The condition of 1039 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1051) = 3/266*pi*sqrt(1051)
+= 1.1486582834
+The condition of 1063 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1087) = -6/893*pi*sqrt(1087)
+= -0.6959282018
+The condition of 1091 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1103) = 6/589*pi*sqrt(1103)
+= 1.0628539344
+The condition of 1123 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1151) = -2/285*pi*sqrt(1151)
+= -0.7479501785
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1163) = 3/95*pi*sqrt(1163)
+= 3.3832756221
+The condition of 1171 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1187) = 6/893*pi*sqrt(1187)
+= 0.7272354210
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1223) = -3/247*pi*sqrt(1223)
+= -1.3344042075
+The condition of 1231 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1259) = 3/494*pi*sqrt(1259)
+= 0.6769507029
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1279) = 6/703*pi*sqrt(1279)
+= 0.9589171154
+The condition of 1283 is invalid
+The condition of 1291 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1303) = -3/76*pi*sqrt(1303)
+= -4.4764088222
+The condition of 1307 is invalid
+The condition of 1319 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1327) = 2/57*pi*sqrt(1327)
+= 4.0155078025
+The condition of 1367 is invalid
+The condition of 1399 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1423) = 2/19*pi*sqrt(1423)
+= 12.4746599941
+The condition of 1427 is invalid
+The condition of 1439 is invalid
+The condition of 1447 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1451) = 6/95*pi*sqrt(1451)
+= 7.5580754669
+The condition of 1459 is invalid
+The condition of 1471 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1483) = -3/133*pi*sqrt(1483)
+= -2.7289153358
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1487) = -6/1235*pi*sqrt(1487)
+= -0.5885585184
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1499) = 3/589*pi*sqrt(1499)
+= 0.6195218798
+The condition of 1511 is invalid
+The condition of 1523 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1531) = 2/95*pi*sqrt(1531)
+= 2.5878783565
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1543) = -6/437*pi*sqrt(1543)
+= -1.6943481357
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1559) = -6/209*pi*sqrt(1559)
+= -3.5610485487
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1567) = 6/475*pi*sqrt(1567)
+= 1.5708763875
+The condition of 1571 is invalid
+The condition of 1579 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1583) = -3/19*pi*sqrt(1583)
+= -19.7359476220
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1607) = 3/323*pi*sqrt(1607)
+= 1.1697055309
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1619) = -6/95*pi*sqrt(1619)
+= -7.9836399402
+The condition of 1627 is invalid
+The condition of 1663 is invalid
+The condition of 1667 is invalid
+The condition of 1699 is invalid
+The condition of 1723 is invalid
+The condition of 1747 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1759) = -3/152*pi*sqrt(1759)
+= -2.6005215629
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1783) = -6/665*pi*sqrt(1783)
+= -1.1968925104
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1787) = -6/95*pi*sqrt(1787)
+= -8.3876402298
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1811) = 2/95*pi*sqrt(1811)
+= 2.8145922547
+The condition of 1823 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1831) = -6/665*pi*sqrt(1831)
+= -1.2128962405
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1847) = 1/38*pi*sqrt(1847)
+= 3.5530369485
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1867) = -3/266*pi*sqrt(1867)
+= -1.5309522654
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1871) = -3/418*pi*sqrt(1871)
+= -0.9752854371
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1879) = 2/323*pi*sqrt(1879)
+= 0.8432196840
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1907) = -3/190*pi*sqrt(1907)
+= -2.1661716766
+The condition of 1931 is invalid
+The condition of 1951 is invalid
+The condition of 1979 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1987) = -3/133*pi*sqrt(1987)
+= -3.1587730206
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1999) = 3/437*pi*sqrt(1999)
+= 0.9642642986
+The condition of 2003 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2011) = 3/323*pi*sqrt(2011)
+= 1.3085027520
+The condition of 2027 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2039) = 3/209*pi*sqrt(2039)
+= 2.0362610506
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2063) = 6/133*pi*sqrt(2063)
+= 6.4372310301
+The condition of 2083 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2087) = -6/19*pi*sqrt(2087)
+= -45.3219666266
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2099) = 1/57*pi*sqrt(2099)
+= 2.5251154335
+The condition of 2111 is invalid
+The condition of 2131 is invalid
+The condition of 2143 is invalid
+The condition of 2179 is invalid
+The condition of 2203 is invalid
+The condition of 2207 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2239) = 3/247*pi*sqrt(2239)
+= 1.8055154993
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2243) = -3/152*pi*sqrt(2243)
+= -2.9365822964
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2251) = -1/133*pi*sqrt(2251)
+= -1.1206912451
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2267) = 6/1615*pi*sqrt(2267)
+= 0.5557178624
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2287) = -2/95*pi*sqrt(2287)
+= -3.1629282877
+The condition of 2311 is invalid
+The condition of 2339 is invalid
+The condition of 2347 is invalid
+The condition of 2351 is invalid
+The condition of 2371 is invalid
+The condition of 2383 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2399) = -2/95*pi*sqrt(2399)
+= -3.2394507902
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2411) = -1/38*pi*sqrt(2411)
+= -4.0594283581
+The condition of 2423 is invalid
+The condition of 2447 is invalid
+The condition of 2459 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2467) = 1/228*pi*sqrt(2467)
+= 0.6843836103
+The condition of 2503 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2531) = -1/19*pi*sqrt(2531)
+= -8.3184487319
+The condition of 2539 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2543) = 3/95*pi*sqrt(2543)
+= 5.0028870992
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2551) = 1/76*pi*sqrt(2551)
+= 2.0878125783
+The condition of 2579 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2591) = 6/437*pi*sqrt(2591)
+= 2.1956008619
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2647) = 3/76*pi*sqrt(2647)
+= 6.3802031296
+The condition of 2659 is invalid
+The condition of 2663 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2671) = -6/209*pi*sqrt(2671)
+= -4.6611360672
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2683) = 6/133*pi*sqrt(2683)
+= 7.3410776604
+The condition of 2687 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2699) = 6/323*pi*sqrt(2699)
+= 3.0317964704
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2707) = -6/1045*pi*sqrt(2707)
+= -0.9384885114
+The condition of 2711 is invalid
+The condition of 2719 is invalid
+The condition of 2731 is invalid
+The condition of 2767 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2791) = 3/646*pi*sqrt(2791)
+= 0.7707588635
+The condition of 2803 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2819) = -3/665*pi*sqrt(2819)
+= -0.7524835669
+The condition of 2843 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2851) = 3/380*pi*sqrt(2851)
+= 1.3242992694
+The condition of 2879 is invalid
+The condition of 2887 is invalid
+The condition of 2903 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2927) = 6/551*pi*sqrt(2927)
+= 1.8508059433
+The condition of 2939 is invalid
+The condition of 2963 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2971) = -3/152*pi*sqrt(2971)
+= -3.3797055537
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2999) = 3/418*pi*sqrt(2999)
+= 1.2347614967
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3011) = 2/95*pi*sqrt(3011)
+= 3.6292061723
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3019) = -3/1102*pi*sqrt(3019)
+= -0.4699169273
+The condition of 3023 is invalid
+The condition of 3067 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3079) = -2/133*pi*sqrt(3079)
+= -2.6213986525
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3083) = -3/247*pi*sqrt(3083)
+= -2.1186583866
+The condition of 3119 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3163) = 6/247*pi*sqrt(3163)
+= 4.2919412229
+The condition of 3167 is invalid
+The condition of 3187 is invalid
+The condition of 3191 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3203) = -3/494*pi*sqrt(3203)
+= -1.0797485955
+The condition of 3251 is invalid
+The condition of 3259 is invalid
+The condition of 3271 is invalid
+The condition of 3299 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3307) = -6/551*pi*sqrt(3307)
+= -1.9672820153
+The condition of 3319 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3323) = -3/19*pi*sqrt(3323)
+= -28.5945125212
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3331) = -2/209*pi*sqrt(3331)
+= -1.7350855726
+The condition of 3343 is invalid
+The condition of 3347 is invalid
+The condition of 3359 is invalid
+The condition of 3371 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3391) = 3/361*pi*sqrt(3391)
+= 1.5202948362
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3407) = 6/247*pi*sqrt(3407)
+= 4.4544104926
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3463) = 2/209*pi*sqrt(3463)
+= 1.7691303296
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3467) = 3/133*pi*sqrt(3467)
+= 4.1725005949
+The condition of 3491 is invalid
+The condition of 3499 is invalid
+The condition of 3511 is invalid
+The condition of 3527 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3539) = 1/304*pi*sqrt(3539)
+= 0.6147755265
+The condition of 3547 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3559) = -3/152*pi*sqrt(3559)
+= -3.6990613432
+The condition of 3571 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3583) = 2/19*pi*sqrt(3583)
+= 19.7947340626
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3607) = 3/418*pi*sqrt(3607)
+= 1.3541535631
+The condition of 3623 is invalid
+The condition of 3631 is invalid
+The condition of 3643 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3659) = -6/931*pi*sqrt(3659)
+= -1.2247082597
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3671) = 3/323*pi*sqrt(3671)
+= 1.7679126255
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3691) = -6/589*pi*sqrt(3691)
+= -1.9442757116
+The condition of 3719 is invalid
+The condition of 3727 is invalid
+The condition of 3739 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3767) = 6/19*pi*sqrt(3767)
+= 60.8899100130
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3779) = 6/931*pi*sqrt(3779)
+= 1.2446289203
+The condition of 3803 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3823) = 2/57*pi*sqrt(3823)
+= 6.8156481392
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3847) = 1/304*pi*sqrt(3847)
+= 0.6409695262
+The condition of 3851 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3863) = -3/304*pi*sqrt(3863)
+= -1.9269031996
+The condition of 3907 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3911) = -3/589*pi*sqrt(3911)
+= -1.0006904165
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3919) = -3/38*pi*sqrt(3919)
+= -15.5265570193
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3923) = -6/779*pi*sqrt(3923)
+= -1.5155589007
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3931) = 6/1045*pi*sqrt(3931)
+= 1.1309316402
+The condition of 3943 is invalid
+The condition of 3947 is invalid
+The condition of 3967 is invalid
+The condition of 4003 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4007) = 1/228*pi*sqrt(4007)
+= 0.8722173009
+The condition of 4019 is invalid
+The condition of 4027 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4051) = -6/817*pi*sqrt(4051)
+= -1.4684534642
+The condition of 4079 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4091) = -3/95*pi*sqrt(4091)
+= -6.3454475966
+The condition of 4099 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4111) = 1/114*pi*sqrt(4111)
+= 1.7669276209
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4127) = 3/760*pi*sqrt(4127)
+= 0.7966632241
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4139) = 2/171*pi*sqrt(4139)
+= 2.3639129029
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4159) = 3/76*pi*sqrt(4159)
+= 7.9974585032
+The condition of 4211 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4219) = -6/931*pi*sqrt(4219)
+= -1.3150922087
+The condition of 4231 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4243) = -6/931*pi*sqrt(4243)
+= -1.3188273894
+The condition of 4259 is invalid
+The condition of 4271 is invalid
+The condition of 4283 is invalid
+The condition of 4327 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4339) = 2/171*pi*sqrt(4339)
+= 2.4203522872
+The condition of 4363 is invalid
+The condition of 4391 is invalid
+The condition of 4423 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4447) = -6/931*pi*sqrt(4447)
+= -1.3501592832
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4451) = 3/95*pi*sqrt(4451)
+= 6.6187552093
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4463) = 1/114*pi*sqrt(4463)
+= 1.8410198231
+The condition of 4483 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4507) = 2/209*pi*sqrt(4507)
+= 2.0182611539
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4519) = -3/247*pi*sqrt(4519)
+= -2.5650471040
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4523) = -6/2071*pi*sqrt(4523)
+= -0.6121168266
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4547) = 1/38*pi*sqrt(4547)
+= 5.5747930916
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4567) = 3/931*pi*sqrt(4567)
+= 0.6841273488
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4583) = 3/76*pi*sqrt(4583)
+= 8.3952273897
+The condition of 4591 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4603) = -3/152*pi*sqrt(4603)
+= -4.2067628201
+The condition of 4639 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4643) = 6/1577*pi*sqrt(4643)
+= 0.8144581464
+The condition of 4651 is invalid
+The condition of 4663 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4679) = -3/152*pi*sqrt(4679)
+= -4.2413495093
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4691) = -3/1007*pi*sqrt(4691)
+= -0.6410241232
+The condition of 4703 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4723) = 6/703*pi*sqrt(4723)
+= 1.8427005728
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4751) = -3/1273*pi*sqrt(4751)
+= -0.5103113632
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4759) = -3/532*pi*sqrt(4759)
+= -1.2221298383
+The condition of 4783 is invalid
+The condition of 4787 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4799) = -6/209*pi*sqrt(4799)
+= -6.2478444986
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4831) = -6/95*pi*sqrt(4831)
+= -13.7910088299
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4871) = -3/247*pi*sqrt(4871)
+= -2.6630740270
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4903) = -6/1843*pi*sqrt(4903)
+= -0.7161545153
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4919) = 2/133*pi*sqrt(4919)
+= 3.3133448458
+The condition of 4931 is invalid
+The condition of 4943 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4951) = 2/133*pi*sqrt(4951)
+= 3.3241046707
+The condition of 4967 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4987) = -1/190*pi*sqrt(4987)
+= -1.1676587977
+The condition of 4999 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5003) = -6/95*pi*sqrt(5003)
+= -14.0343650626
+The condition of 5011 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5023) = 6/551*pi*sqrt(5023)
+= 2.4245498246
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5039) = 6/665*pi*sqrt(5039)
+= 2.0121097104
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5051) = 1/152*pi*sqrt(5051)
+= 1.4689092613
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5059) = 1/76*pi*sqrt(5059)
+= 2.9401441263
+The condition of 5087 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5099) = 6/19*pi*sqrt(5099)
+= 70.8418718672
+The condition of 5107 is invalid
+The condition of 5119 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5147) = -3/1577*pi*sqrt(5147)
+= -0.4287622272
+The condition of 5167 is invalid
+The condition of 5171 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5179) = -1/38*pi*sqrt(5179)
+= -5.9496200438
+The condition of 5227 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5231) = -2/437*pi*sqrt(5231)
+= -1.0398981160
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5279) = -6/247*pi*sqrt(5279)
+= -5.5447248643
+The condition of 5303 is invalid
+The condition of 5323 is invalid
+The condition of 5347 is invalid
+The condition of 5351 is invalid
+The condition of 5387 is invalid
+The condition of 5399 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5407) = -6/437*pi*sqrt(5407)
+= -3.1717421297
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5419) = -6/931*pi*sqrt(5419)
+= -1.4904280575
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5431) = -1/76*pi*sqrt(5431)
+= -3.0463246298
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5443) = -1/285*pi*sqrt(5443)
+= -0.8132502020
+The condition of 5471 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5479) = 6/1159*pi*sqrt(5479)
+= 1.2038388020
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5483) = 1/171*pi*sqrt(5483)
+= 1.3603882909
+The condition of 5503 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5507) = -3/380*pi*sqrt(5507)
+= -1.8405391894
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5519) = 6/551*pi*sqrt(5519)
+= 2.5414391820
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5527) = -6/817*pi*sqrt(5527)
+= -1.7152356667
+The condition of 5531 is invalid
+The condition of 5563 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5591) = -2/399*pi*sqrt(5591)
+= -1.1774750645
+The condition of 5623 is invalid
+The condition of 5639 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5647) = 1/95*pi*sqrt(5647)
+= 2.4850501715
+The condition of 5651 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5659) = 2/323*pi*sqrt(5659)
+= 1.4633465668
+The condition of 5683 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5711) = -2/171*pi*sqrt(5711)
+= -2.7767695489
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5743) = -3/266*pi*sqrt(5743)
+= -2.6850903201
+The condition of 5779 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5783) = -3/874*pi*sqrt(5783)
+= -0.8200423678
+The condition of 5791 is invalid
+The condition of 5807 is invalid
+The condition of 5827 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5839) = -2/285*pi*sqrt(5839)
+= -1.6846288968
+The condition of 5843 is invalid
+The condition of 5851 is invalid
+The condition of 5867 is invalid
+The condition of 5879 is invalid
+The condition of 5903 is invalid
+The condition of 5923 is invalid
+The condition of 5927 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5939) = 6/703*pi*sqrt(5939)
+= 2.0663432254
+The condition of 5987 is invalid
+The condition of 6007 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6011) = -1/76*pi*sqrt(6011)
+= -3.2048642926
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6043) = -6/95*pi*sqrt(6043)
+= -15.4242414459
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6047) = -6/1387*pi*sqrt(6047)
+= -1.0568044816
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6067) = -6/1691*pi*sqrt(6067)
+= -0.8682494422
+The condition of 6079 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6091) = 3/133*pi*sqrt(6091)
+= 5.5304922261
+The condition of 6131 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6143) = -3/1349*pi*sqrt(6143)
+= -0.5475823426
+The condition of 6151 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6163) = 3/1235*pi*sqrt(6163)
+= 0.5991012886
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6199) = 3/304*pi*sqrt(6199)
+= 2.4409470688
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6203) = 6/2641*pi*sqrt(6203)
+= 0.5621259214
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6211) = -6/95*pi*sqrt(6211)
+= -15.6371744926
+The condition of 6247 is invalid
+The condition of 6263 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6271) = -6/2299*pi*sqrt(6271)
+= -0.6492777976
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6287) = 3/190*pi*sqrt(6287)
+= 3.9331386529
+The condition of 6299 is invalid
+The condition of 6311 is invalid
+The condition of 6323 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6343) = 3/589*pi*sqrt(6343)
+= 1.2743924455
+The condition of 6359 is invalid
+The condition of 6367 is invalid
+The condition of 6379 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6427) = -3/152*pi*sqrt(6427)
+= -4.9708618044
+The condition of 6451 is invalid
+The condition of 6491 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6547) = 3/779*pi*sqrt(6547)
+= 0.9789372181
+The condition of 6551 is invalid
+The condition of 6563 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6571) = 3/494*pi*sqrt(6571)
+= 1.5465355663
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6599) = 6/893*pi*sqrt(6599)
+= 1.7147022920
+The condition of 6607 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6619) = 1/57*pi*sqrt(6619)
+= 4.4840578568
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6659) = 2/247*pi*sqrt(6659)
+= 2.0758091528
+The condition of 6679 is invalid
+The condition of 6691 is invalid
+The condition of 6703 is invalid
+The condition of 6719 is invalid
+The condition of 6763 is invalid
+The condition of 6779 is invalid
+The condition of 6791 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6803) = -2/361*pi*sqrt(6803)
+= -1.4355651339
+The condition of 6823 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6827) = 1/209*pi*sqrt(6827)
+= 1.2419912552
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6863) = -6/1235*pi*sqrt(6863)
+= -1.2644194417
+The condition of 6871 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6883) = 2/133*pi*sqrt(6883)
+= 3.9193776537
+The condition of 6899 is invalid
+The condition of 6907 is invalid
+The condition of 6911 is invalid
+The condition of 6947 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6959) = -3/1691*pi*sqrt(6959)
+= -0.4649443110
+The condition of 6967 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6971) = -3/418*pi*sqrt(6971)
+= -1.8825320857
+The condition of 6983 is invalid
+The condition of 6991 is invalid
+The condition of 7019 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7027) = 2/323*pi*sqrt(7027)
+= 1.6306558874
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7039) = 2/323*pi*sqrt(7039)
+= 1.6320476281
+The condition of 7043 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7079) = -1/76*pi*sqrt(7079)
+= -3.4779412102
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7103) = 6/893*pi*sqrt(7103)
+= 1.7789779761
+The condition of 7127 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7151) = 2/399*pi*sqrt(7151)
+= 1.3316508226
+The condition of 7159 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7187) = 6/323*pi*sqrt(7187)
+= 4.9473475802
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7207) = 3/361*pi*sqrt(7207)
+= 2.2163645060
+The condition of 7211 is invalid
+The condition of 7219 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7243) = -3/190*pi*sqrt(7243)
+= -4.2215969661
+The condition of 7247 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7283) = -3/931*pi*sqrt(7283)
+= -0.8639261135
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7307) = -6/665*pi*sqrt(7307)
+= -2.4229755484
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7331) = -3/76*pi*sqrt(7331)
+= -10.6179125684
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7351) = 3/323*pi*sqrt(7351)
+= 2.5017379491
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7411) = 6/1349*pi*sqrt(7411)
+= 1.2028946132
+The condition of 7451 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7459) = -2/209*pi*sqrt(7459)
+= -2.5964136629
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7487) = 1/152*pi*sqrt(7487)
+= 1.7883816346
+The condition of 7499 is invalid
+The condition of 7507 is invalid
+The condition of 7523 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7547) = -3/209*pi*sqrt(7547)
+= -3.9175271619
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7559) = 2/1121*pi*sqrt(7559)
+= 0.4873112398
+The condition of 7583 is invalid
+The condition of 7591 is invalid
+The condition of 7603 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7607) = 1/437*pi*sqrt(7607)
+= 0.6270109767
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7639) = 3/133*pi*sqrt(7639)
+= 6.1935228110
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7643) = 1/228*pi*sqrt(7643)
+= 1.2046113629
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7687) = -1/304*pi*sqrt(7687)
+= -0.9060553511
+The condition of 7691 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7699) = -3/76*pi*sqrt(7699)
+= -10.8811474375
+The condition of 7703 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7723) = 1/114*pi*sqrt(7723)
+= 2.4217986835
+The condition of 7727 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7759) = 3/1102*pi*sqrt(7759)
+= 0.7533423957
+The condition of 7823 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7867) = -6/1577*pi*sqrt(7867)
+= -1.0601663240
+The condition of 7879 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7883) = 6/817*pi*sqrt(7883)
+= 2.0484474623
+The condition of 7907 is invalid
+The condition of 7919 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7927) = 3/874*pi*sqrt(7927)
+= 0.9600948141
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7951) = 1/171*pi*sqrt(7951)
+= 1.6381913900
+The condition of 7963 is invalid
+The condition of 8011 is invalid
+The condition of 8039 is invalid
+The condition of 8059 is invalid
+The condition of 8087 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8111) = 2/95*pi*sqrt(8111)
+= 5.9565317875
+The condition of 8123 is invalid
+The condition of 8147 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8167) = -3/760*pi*sqrt(8167)
+= -1.1206985575
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8171) = -6/1577*pi*sqrt(8171)
+= -1.0804558742
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8179) = -6/1615*pi*sqrt(8179)
+= -1.0555497337
+The condition of 8191 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8219) = 3/950*pi*sqrt(8219)
+= 0.8994085512
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8231) = 1/133*pi*sqrt(8231)
+= 2.1430116529
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8243) = -3/589*pi*sqrt(8243)
+= -1.4527754176
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8263) = -1/323*pi*sqrt(8263)
+= -0.8841302027
+The condition of 8287 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8291) = 6/1235*pi*sqrt(8291)
+= 1.3897530091
+The condition of 8311 is invalid
+The condition of 8363 is invalid
+The condition of 8387 is invalid
+The condition of 8419 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8423) = 3/209*pi*sqrt(8423)
+= 4.1386456296
+The condition of 8431 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8443) = -2/57*pi*sqrt(8443)
+= -10.1286929866
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8447) = 3/380*pi*sqrt(8447)
+= 2.2794957031
+The condition of 8467 is invalid
+The condition of 8527 is invalid
+The condition of 8539 is invalid
+The condition of 8543 is invalid
+The condition of 8563 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8599) = 6/2869*pi*sqrt(8599)
+= 0.6092486132
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8623) = -6/779*pi*sqrt(8623)
+= -2.2469471545
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8627) = 2/399*pi*sqrt(8627)
+= 1.4626380650
+The condition of 8647 is invalid
+The condition of 8663 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8699) = -6/475*pi*sqrt(8699)
+= -3.7011968074
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8707) = -3/950*pi*sqrt(8707)
+= -0.9257245779
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8719) = -1/19*pi*sqrt(8719)
+= -15.4393712620
+The condition of 8731 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8747) = 1/228*pi*sqrt(8747)
+= 1.2886785179
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8779) = -1/152*pi*sqrt(8779)
+= -1.9365504223
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8783) = -6/3743*pi*sqrt(8783)
+= -0.4719573320
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8803) = 3/1045*pi*sqrt(8803)
+= 0.8461944799
+The condition of 8807 is invalid
+The condition of 8819 is invalid
+The condition of 8831 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8839) = 3/1159*pi*sqrt(8839)
+= 0.7645207169
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8863) = 1/133*pi*sqrt(8863)
+= 2.2237635449
+The condition of 8867 is invalid
+The condition of 8887 is invalid
+The condition of 8923 is invalid
+The condition of 8951 is invalid
+The condition of 8963 is invalid
+The condition of 8971 is invalid
+The condition of 8999 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9007) = -6/2375*pi*sqrt(9007)
+= -0.7532299679
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9011) = -3/304*pi*sqrt(9011)
+= -2.9429578270
+The condition of 9043 is invalid
+The condition of 9059 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9067) = 3/2147*pi*sqrt(9067)
+= 0.4179948114
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9091) = -6/209*pi*sqrt(9091)
+= -8.5992517974
+The condition of 9103 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9127) = 2/57*pi*sqrt(9127)
+= 10.5309860615
+The condition of 9151 is invalid
+The condition of 9187 is invalid
+The condition of 9199 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9203) = -3/1178*pi*sqrt(9203)
+= -0.7675214966
+The condition of 9227 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9239) = -6/1577*pi*sqrt(9239)
+= -1.1488991637
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9283) = -2/551*pi*sqrt(9283)
+= -1.0986831013
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9311) = -2/437*pi*sqrt(9311)
+= -1.3873837221
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9319) = 1/380*pi*sqrt(9319)
+= 0.7980882777
+The condition of 9323 is invalid
+The condition of 9343 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9371) = 6/323*pi*sqrt(9371)
+= 5.6492600864
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9391) = 2/627*pi*sqrt(9391)
+= 0.9711096009
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9403) = 3/1976*pi*sqrt(9403)
+= 0.4625060363
+The condition of 9419 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9431) = 3/38*pi*sqrt(9431)
+= 24.0860954584
+The condition of 9439 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9463) = -3/2660*pi*sqrt(9463)
+= -0.3446703386
+m_minus = 0L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9479) = 3/266*pi*sqrt(9479)
+= 3.4496159912
+The condition of 9491 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9511) = -6/1577*pi*sqrt(9511)
+= -1.1656885231
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9539) = 6/19*pi*sqrt(9539)
+= 96.8944599578
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9547) = -1/76*pi*sqrt(9547)
+= -4.0389617629
+The condition of 9551 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9587) = -3/1102*pi*sqrt(9587)
+= -0.8373960280
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9619) = 1/114*pi*sqrt(9619)
+= 2.7027755637
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9623) = 6/817*pi*sqrt(9623)
+= 2.2632592783
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9631) = -2/437*pi*sqrt(9631)
+= -1.4110230972
+The condition of 9643 is invalid
+The condition of 9679 is invalid
+The condition of 9719 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9739) = 6/893*pi*sqrt(9739)
+= 2.0830843068
+The condition of 9743 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9767) = -3/247*pi*sqrt(9767)
+= -3.7709846797
+The condition of 9787 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9791) = -3/95*pi*sqrt(9791)
+= -9.8165989237
+The condition of 9803 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9811) = -6/703*pi*sqrt(9811)
+= -2.6558432309
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9839) = -6/665*pi*sqrt(9839)
+= -2.8116092151
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9851) = -3/1615*pi*sqrt(9851)
+= -0.5792136129
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9859) = 1/285*pi*sqrt(9859)
+= 1.0945143149
+The condition of 9871 is invalid
+The condition of 9883 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9887) = -2/741*pi*sqrt(9887)
+= -0.8431288059
+The condition of 9907 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9923) = 3/703*pi*sqrt(9923)
+= 1.3354797221
+The condition of 9931 is invalid
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9967) = -3/2090*pi*sqrt(9967)
+= -0.4502016376
