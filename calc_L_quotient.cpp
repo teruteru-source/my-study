@@ -228,7 +228,7 @@ int mod_pow(int x,int y,int p){//x^y mod p
 
 int convert_in_prime_forms(M_symbols M,int p){//M-symbolsを(a)の形に変換する
   if(M.d%p==0) return p;//(∞)に対応
-  else return (M.c * mod_pow(M.d,p-2,p)+p)%p;
+  else return (((M.c%p)+p)%p * mod_pow(M.d,p-2,p)+p)%p;
 }
 
 M_symbols convert_in_normal_forms(int x,int p){//(a)の形のM-Symbolsを普通の形にする
@@ -257,6 +257,7 @@ std::vector<int> Modular_Symbols_to_M_Symbols(Modular_Symbols M,int p){
   //for(int i=0;i<l2-1;i++) cerr<<Modular_Symbol_to_M_Symbols(Modular_Symbols{res2[i],res2[i+1]},p)<<"\n";
   for(int i=0;i<l2-1;i++){
     M_symbols ms = Modular_Symbol_to_M_Symbols(Modular_Symbols{res2[i],res2[i+1]});
+    //std::cerr<<convert_in_prime_forms(ms,p)<<"\n";
     cnt[convert_in_prime_forms(ms,p)]++;
   }
   for(int i=0;i<l1-1;i++){
@@ -359,6 +360,11 @@ int main(){
     std::cout<<"l is not valid :(\n";
     return 1;
   }
+  if(Legendre(-p,l) != 1){
+    //std::cerr<<Legendre(-p,l)<<"\n";
+    std::cout<<"The condition is invalid\n";
+    return 0;
+  }
   Matrix<fraction> mat(2*p,p+1);
   for(int i=0;i<p;i++){//二項関係式
     //std::cout<<i<<" "<<convert_in_prime_forms(M_symbols{-1,i},p)<<"\n";
@@ -383,7 +389,7 @@ int main(){
   else std::cout<<"The period lattice is non-rectangular\n";
   auto res = Calc_Hecke_operator(2,p,basis,state,basis[0]);
   assert(res[0].denominator == 1);
-  fraction L_f1_over_Omega_f = fraction(1,(3-res[0].numerator)).inv()/2;
+  fraction L_f1_over_Omega_f = fraction(1,(3-res[0].numerator));
   //==n(p,f)/(1+p-a_p(f)),p=2より
   std::cout<<"L(f,1)/Omega(f) = "<<L_f1_over_Omega_f<<"\n";
   
@@ -401,7 +407,7 @@ int main(){
     std::cout<<"m_minus = 0";
     return 0;
   }
-  fraction result = L_f1_over_Omega_f * fraction(1,p) * Parametrization_Degrees[p] * m_minus.inv();
+  fraction result = (L_f1_over_Omega_f.inv()/2) * fraction(1,p) * Parametrization_Degrees[p] * m_minus.inv();
   if(rectangular) result *= 2;
   else result *= 4;
   
