@@ -444,7 +444,8 @@ L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6823) = -5/11*pi*sqrt(6823)
 = -117.9545987289
 L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6911) = 5/1364*pi*sqrt(6911)
 = 0.9573614884
-m_minus = 0L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6983) = -10/1419*pi*sqrt(6983)
+m_minus in l = 6967 = 0
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6983) = -10/1419*pi*sqrt(6983)
 = -1.8500714373
 L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7019) = 10/1463*pi*sqrt(7019)
 = 1.7990497272
