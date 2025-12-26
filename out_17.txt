@@ -1,0 +1,609 @@
+m_minus in l = 3 = 0
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7) = 4/17*pi*sqrt(7)
+= 1.9557347958
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 11) = -4/17*pi*sqrt(11)
+= -2.4516433120
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 23) = -8/17*pi*sqrt(23)
+= -7.0901407442
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 31) = -8/85*pi*sqrt(31)
+= -1.6462727171
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 71) = 4/17*pi*sqrt(71)
+= 6.2285953472
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 79) = -4/17*pi*sqrt(79)
+= -6.5701379494
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 107) = 4/51*pi*sqrt(107)
+= 2.5487754585
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 131) = 8/119*pi*sqrt(131)
+= 2.4172888350
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 139) = 2/51*pi*sqrt(139)
+= 1.4525031817
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 163) = 8/289*pi*sqrt(163)
+= 1.1102884427
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 167) = 8/255*pi*sqrt(167)
+= 1.2736729188
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 199) = 8/221*pi*sqrt(199)
+= 1.6042576695
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 211) = -4/187*pi*sqrt(211)
+= -0.9761341013
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 227) = -8/85*pi*sqrt(227)
+= -4.4548579718
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 283) = 4/119*pi*sqrt(283)
+= 1.7764628115
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 311) = -2/17*pi*sqrt(311)
+= -6.5179517541
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 347) = 4/17*pi*sqrt(347)
+= 13.7697380991
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 367) = 8/119*pi*sqrt(367)
+= 4.0460004843
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 379) = 1/34*pi*sqrt(379)
+= 1.7988318172
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 419) = -4/221*pi*sqrt(419)
+= -1.1639239422
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 431) = 8/357*pi*sqrt(431)
+= 1.4615385625
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 439) = -8/221*pi*sqrt(439)
+= -2.3827575050
+m_minus in l = 479 = 0
+m_minus in l = 487 = 0
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 499) = -8/221*pi*sqrt(499)
+= -2.5403751676
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 503) = 8/17*pi*sqrt(503)
+= 33.1569772143
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 547) = 4/187*pi*sqrt(547)
+= 1.5716720165
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 571) = 8/187*pi*sqrt(571)
+= 3.2115619754
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 607) = 8/221*pi*sqrt(607)
+= 2.8018309706
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 619) = 4/323*pi*sqrt(619)
+= 0.9679494251
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 643) = -8/51*pi*sqrt(643)
+= -12.4961195101
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 683) = 4/187*pi*sqrt(683)
+= 1.7562187492
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 691) = -4/85*pi*sqrt(691)
+= -3.8862430824
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 719) = 4/255*pi*sqrt(719)
+= 1.3213994715
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 743) = -8/119*pi*sqrt(743)
+= -5.7568817011
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 751) = -2/17*pi*sqrt(751)
+= -10.1286348716
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 787) = -4/51*pi*sqrt(787)
+= -6.9123712324
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 811) = -8/187*pi*sqrt(811)
+= -3.8274425465
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 823) = 1/17*pi*sqrt(823)
+= 5.3015256739
+m_minus in l = 827 = 0
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 839) = -8/289*pi*sqrt(839)
+= -2.5189700122
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 887) = -2/85*pi*sqrt(887)
+= -2.2015205948
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 907) = 8/221*pi*sqrt(907)
+= 3.4249262926
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 911) = 8/85*pi*sqrt(911)
+= 8.9244224998
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 947) = 8/85*pi*sqrt(947)
+= 9.0990473173
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 983) = 8/629*pi*sqrt(983)
+= 1.2527545050
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 991) = 4/255*pi*sqrt(991)
+= 1.5513382864
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1031) = 2/51*pi*sqrt(1031)
+= 3.9558427993
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1051) = 8/119*pi*sqrt(1051)
+= 6.8469042777
+m_minus in l = 1091 = 0
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1151) = 8/153*pi*sqrt(1151)
+= 5.5729621144
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1163) = 1/17*pi*sqrt(1163)
+= 6.3021800804
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1187) = 8/85*pi*sqrt(1187)
+= 10.1869997019
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1231) = 4/323*pi*sqrt(1231)
+= 1.3650116820
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1303) = -1/68*pi*sqrt(1303)
+= -1.6676817181
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1319) = 8/85*pi*sqrt(1319)
+= 10.7384928361
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1367) = -4/289*pi*sqrt(1367)
+= -1.6076676711
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1399) = -2/119*pi*sqrt(1399)
+= -1.9748847864
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1423) = -8/527*pi*sqrt(1423)
+= -1.7990022003
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1439) = 4/17*pi*sqrt(1439)
+= 28.0408606783
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1451) = 8/119*pi*sqrt(1451)
+= 8.0450103009
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1459) = 8/357*pi*sqrt(1459)
+= 2.6890525509
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1499) = -4/357*pi*sqrt(1499)
+= -1.3628324452
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1523) = -8/187*pi*sqrt(1523)
+= -5.2450327566
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1559) = 8/697*pi*sqrt(1559)
+= 1.4237382050
+m_minus in l = 1567 = 0
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1571) = 4/51*pi*sqrt(1571)
+= 9.7662487211
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1627) = -8/357*pi*sqrt(1627)
+= -2.8396539591
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1663) = -8/765*pi*sqrt(1663)
+= -1.3397524168
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1723) = 8/1479*pi*sqrt(1723)
+= 0.7053656791
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1831) = -8/561*pi*sqrt(1831)
+= -1.9169958407
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1847) = -2/153*pi*sqrt(1847)
+= -1.7649072424
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1867) = -8/85*pi*sqrt(1867)
+= -12.7759467484
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1907) = 4/629*pi*sqrt(1907)
+= 0.8724379831
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1931) = 8/561*pi*sqrt(1931)
+= 1.9686482963
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1979) = 1/102*pi*sqrt(1979)
+= 1.3701641434
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 1999) = 8/561*pi*sqrt(1999)
+= 2.0030112821
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2003) = 8/867*pi*sqrt(2003)
+= 1.2973621901
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2011) = -4/425*pi*sqrt(2011)
+= -1.3259494554
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2063) = 8/357*pi*sqrt(2063)
+= 3.1975788124
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2111) = 2/17*pi*sqrt(2111)
+= 16.9814614533
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2131) = 8/425*pi*sqrt(2131)
+= 2.7298743286
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2179) = 2/187*pi*sqrt(2179)
+= 1.5684362706
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2203) = 8/153*pi*sqrt(2203)
+= 7.7100230681
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2207) = 8/493*pi*sqrt(2207)
+= 2.3949370740
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2239) = 8/425*pi*sqrt(2239)
+= 2.7981950013
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2251) = -2/289*pi*sqrt(2251)
+= -1.0315012844
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2267) = 8/425*pi*sqrt(2267)
+= 2.8156371693
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2339) = 8/51*pi*sqrt(2339)
+= 23.8333337401
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2351) = -4/289*pi*sqrt(2351)
+= -2.1083287734
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2383) = -2/221*pi*sqrt(2383)
+= -1.3878726448
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2411) = 8/1003*pi*sqrt(2411)
+= 1.2303750956
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2459) = -2/323*pi*sqrt(2459)
+= -0.9646207735
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2539) = -8/119*pi*sqrt(2539)
+= -10.6420243606
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2543) = -8/629*pi*sqrt(2543)
+= -2.0149412800
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2579) = 8/493*pi*sqrt(2579)
+= 2.5889198863
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2591) = -2/221*pi*sqrt(2591)
+= -1.4471758321
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2647) = -8/493*pi*sqrt(2647)
+= -2.6228286023
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2659) = -1/34*pi*sqrt(2659)
+= -4.7646403502
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2663) = 4/561*pi*sqrt(2663)
+= 1.1559327969
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2683) = -8/663*pi*sqrt(2683)
+= -1.9635260509
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2731) = 1/170*pi*sqrt(2731)
+= 0.9657435169
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2791) = 2/153*pi*sqrt(2791)
+= 2.1695434675
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2819) = -8/255*pi*sqrt(2819)
+= -5.2329576157
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2851) = -8/391*pi*sqrt(2851)
+= -3.4321140485
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2879) = 8/255*pi*sqrt(2879)
+= 5.2883539119
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2887) = 8/119*pi*sqrt(2887)
+= 11.3479206471
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2927) = -2/187*pi*sqrt(2927)
+= -1.8178147500
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2963) = 4/85*pi*sqrt(2963)
+= 8.0474217793
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 2999) = -4/391*pi*sqrt(2999)
+= -1.7600351428
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3019) = 8/221*pi*sqrt(3019)
+= 6.2485484631
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3023) = 8/867*pi*sqrt(3023)
+= 1.5938220682
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3067) = -4/323*pi*sqrt(3067)
+= -2.1545879651
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3083) = 8/1581*pi*sqrt(3083)
+= 0.8826626548
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3167) = -2/425*pi*sqrt(3167)
+= -0.8319839916
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3191) = -8/323*pi*sqrt(3191)
+= -4.3954236382
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3203) = -1/102*pi*sqrt(3203)
+= -1.7431235497
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3259) = 8/935*pi*sqrt(3259)
+= 1.5345124948
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3271) = 1/153*pi*sqrt(3271)
+= 1.1743531416
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3343) = -1/170*pi*sqrt(3343)
+= -1.0684867467
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3359) = 8/119*pi*sqrt(3359)
+= 12.2404645430
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3371) = -4/221*pi*sqrt(3371)
+= -3.3013910273
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3407) = 2/425*pi*sqrt(3407)
+= 0.8629328562
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3463) = 8/289*pi*sqrt(3463)
+= 5.1176226836
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3491) = 8/867*pi*sqrt(3491)
+= 1.7127567455
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3499) = -8/391*pi*sqrt(3499)
+= -3.8022010158
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3539) = -2/323*pi*sqrt(3539)
+= -1.1572245204
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3547) = -4/153*pi*sqrt(3547)
+= -4.8915784997
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3559) = -8/459*pi*sqrt(3559)
+= -3.2665639748
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3607) = 2/357*pi*sqrt(3607)
+= 1.0570236963
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3631) = 8/595*pi*sqrt(3631)
+= 2.5452826575
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3643) = 4/51*pi*sqrt(3643)
+= 14.8719964654
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3767) = 8/527*pi*sqrt(3767)
+= 2.9270291973
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3779) = -4/153*pi*sqrt(3779)
+= -5.0490175371
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3803) = -8/1615*pi*sqrt(3803)
+= -0.9596889531
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3847) = -4/833*pi*sqrt(3847)
+= -0.9356770035
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3907) = -8/731*pi*sqrt(3907)
+= -2.1490384624
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3947) = -2/187*pi*sqrt(3947)
+= -2.1109202448
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 3967) = -8/459*pi*sqrt(3967)
+= -3.4487226901
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4007) = -8/561*pi*sqrt(4007)
+= -2.8358722940
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4019) = 1/85*pi*sqrt(4019)
+= 2.3430952849
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4051) = -2/17*pi*sqrt(4051)
+= -23.5240486326
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4091) = 4/289*pi*sqrt(4091)
+= 2.7811650366
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4111) = 8/561*pi*sqrt(4111)
+= 2.8724384853
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4159) = -1/34*pi*sqrt(4159)
+= -5.9588906494
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4211) = 8/1071*pi*sqrt(4211)
+= 1.5228004959
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4219) = -1/204*pi*sqrt(4219)
+= -1.0002866391
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4243) = 8/221*pi*sqrt(4243)
+= 7.4077122142
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4363) = 4/153*pi*sqrt(4363)
+= 5.4251411208
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4391) = 1/68*pi*sqrt(4391)
+= 3.0614183326
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4423) = -4/391*pi*sqrt(4423)
+= -2.1374284037
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4447) = -8/1105*pi*sqrt(4447)
+= -1.5167400213
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4451) = 8/833*pi*sqrt(4451)
+= 2.0129067463
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4483) = -8/1207*pi*sqrt(4483)
+= -1.3941739349
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4519) = 8/2329*pi*sqrt(4519)
+= 0.7254233688
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4567) = 4/935*pi*sqrt(4567)
+= 0.9082674678
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4583) = -8/561*pi*sqrt(4583)
+= -3.0328569536
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4651) = -8/493*pi*sqrt(4651)
+= -3.4766911347
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4663) = -4/289*pi*sqrt(4663)
+= -2.9692360790
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4703) = -1/102*pi*sqrt(4703)
+= -2.1122104664
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4723) = 8/595*pi*sqrt(4723)
+= 2.9028986055
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4783) = -8/595*pi*sqrt(4783)
+= -2.9212793206
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4787) = -8/561*pi*sqrt(4787)
+= -3.0996218392
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4799) = -2/221*pi*sqrt(4799)
+= -1.9695316745
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4831) = -4/1173*pi*sqrt(4831)
+= -0.7446125825
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4903) = 4/51*pi*sqrt(4903)
+= 17.2532388465
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4919) = 8/1207*pi*sqrt(4919)
+= 1.4603972311
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4967) = -4/697*pi*sqrt(4967)
+= -1.2706448071
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 4987) = 8/255*pi*sqrt(4987)
+= 6.9601622450
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5003) = 4/221*pi*sqrt(5003)
+= 4.0219145730
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5039) = 2/323*pi*sqrt(5039)
+= 1.3808596051
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5059) = 8/1445*pi*sqrt(5059)
+= 1.2370987051
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5107) = 2/255*pi*sqrt(5107)
+= 1.7608510346
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5171) = -1/68*pi*sqrt(5171)
+= -3.3222187798
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5179) = 4/153*pi*sqrt(5179)
+= 5.9107336383
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5231) = -8/1751*pi*sqrt(5231)
+= -1.0381164516
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5399) = 8/731*pi*sqrt(5399)
+= 2.5262664034
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5443) = 4/527*pi*sqrt(5443)
+= 1.7592129608
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5471) = -8/969*pi*sqrt(5471)
+= -1.9184453849
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5479) = 4/765*pi*sqrt(5479)
+= 1.2159034174
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5503) = -8/935*pi*sqrt(5503)
+= -1.9940130911
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5519) = -4/17*pi*sqrt(5519)
+= -54.9150191869
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5531) = -8/1479*pi*sqrt(5531)
+= -1.2637859270
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5639) = -8/527*pi*sqrt(5639)
+= -3.5812141498
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5647) = -4/323*pi*sqrt(5647)
+= -2.9235884371
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5651) = -2/153*pi*sqrt(5651)
+= -3.0871027967
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5683) = -2/527*pi*sqrt(5683)
+= -0.8987896883
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5743) = 8/1581*pi*sqrt(5743)
+= 1.2046958046
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5783) = -2/221*pi*sqrt(5783)
+= -2.1620423210
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5791) = -1/34*pi*sqrt(5791)
+= -7.0314960660
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5807) = 8/935*pi*sqrt(5807)
+= 2.0483499793
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5843) = -8/51*pi*sqrt(5843)
+= -37.6693066666
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5851) = 2/493*pi*sqrt(5851)
+= 0.9748729007
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5879) = 8/221*pi*sqrt(5879)
+= 8.7196552816
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5923) = -4/391*pi*sqrt(5923)
+= -2.4734547686
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5927) = 4/119*pi*sqrt(5927)
+= 8.1298094447
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5939) = -8/731*pi*sqrt(5939)
+= -2.6495928635
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 5987) = 4/357*pi*sqrt(5987)
+= 2.7236185097
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6007) = 8/527*pi*sqrt(6007)
+= 3.6962221090
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6011) = -8/1003*pi*sqrt(6011)
+= -1.9427293020
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6047) = 8/1343*pi*sqrt(6047)
+= 1.4552373452
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6079) = 8/51*pi*sqrt(6079)
+= 38.4225120332
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6091) = 4/1037*pi*sqrt(6091)
+= 0.9457479474
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6131) = -4/561*pi*sqrt(6131)
+= -1.7539316328
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6143) = 8/425*pi*sqrt(6143)
+= 4.6349087385
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6151) = -8/901*pi*sqrt(6151)
+= -2.1877008333
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6199) = 4/833*pi*sqrt(6199)
+= 1.1877517550
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6211) = 8/1717*pi*sqrt(6211)
+= 1.1535869360
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6263) = 4/663*pi*sqrt(6263)
+= 1.4999871600
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6287) = 8/221*pi*sqrt(6287)
+= 9.0171504561
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6491) = 8/51*pi*sqrt(6491)
+= 39.7031978696
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6551) = -8/2499*pi*sqrt(6551)
+= -0.8140056199
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6599) = 1/170*pi*sqrt(6599)
+= 1.5012050459
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6607) = -2/425*pi*sqrt(6607)
+= -1.2016917835
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6619) = 8/1547*pi*sqrt(6619)
+= 1.3217390968
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6659) = 8/1105*pi*sqrt(6659)
+= 1.8560175955
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6691) = 8/799*pi*sqrt(6691)
+= 2.5729929445
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6703) = -1/187*pi*sqrt(6703)
+= -1.3754438818
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6763) = 8/1105*pi*sqrt(6763)
+= 1.8704550479
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6803) = 4/561*pi*sqrt(6803)
+= 1.8475544148
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6823) = 8/1445*pi*sqrt(6823)
+= 1.4366788496
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6827) = -8/1105*pi*sqrt(6827)
+= -1.8792845056
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6863) = 8/2125*pi*sqrt(6863)
+= 0.9798011046
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6871) = -4/221*pi*sqrt(6871)
+= -4.7133269287
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6899) = -8/425*pi*sqrt(6899)
+= -4.9118376318
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6907) = 4/629*pi*sqrt(6907)
+= 1.6603664397
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6947) = 4/119*pi*sqrt(6947)
+= 8.8015984691
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6959) = -8/2057*pi*sqrt(6959)
+= -1.0192459307
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 6967) = -8/2227*pi*sqrt(6967)
+= -0.9419818782
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7027) = -8/561*pi*sqrt(7027)
+= -3.7554499225
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7043) = 1/34*pi*sqrt(7043)
+= 7.7544285704
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7079) = 2/17*pi*sqrt(7079)
+= 31.0968861146
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7103) = 8/17*pi*sqrt(7103)
+= 124.5982221724
+m_minus in l = 7151 = 0
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7211) = -1/85*pi*sqrt(7211)
+= -3.1385474201
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7219) = 4/731*pi*sqrt(7219)
+= 1.4605990303
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7247) = -1/85*pi*sqrt(7247)
+= -3.1463720657
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7283) = 2/119*pi*sqrt(7283)
+= 4.5059675722
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7307) = -8/1377*pi*sqrt(7307)
+= -1.5601827545
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7351) = -4/493*pi*sqrt(7351)
+= -2.1854262544
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7451) = 1/119*pi*sqrt(7451)
+= 2.2788208953
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7487) = 2/187*pi*sqrt(7487)
+= 2.9073155984
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7507) = -8/153*pi*sqrt(7507)
+= -14.2325145610
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7559) = -1/170*pi*sqrt(7559)
+= -1.6066938229
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7639) = -8/2975*pi*sqrt(7639)
+= -0.7383650724
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7643) = -8/391*pi*sqrt(7643)
+= -5.6194657953
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7687) = -4/255*pi*sqrt(7687)
+= -4.3206404193
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7691) = -4/765*pi*sqrt(7691)
+= -1.4405881384
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7723) = -4/1105*pi*sqrt(7723)
+= -0.9994028956
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7759) = -4/51*pi*sqrt(7759)
+= -21.7041390870
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7823) = 2/153*pi*sqrt(7823)
+= 3.6322447328
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7883) = 8/1105*pi*sqrt(7883)
+= 2.0194046174
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7919) = 8/663*pi*sqrt(7919)
+= 3.3733507710
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7927) = -2/425*pi*sqrt(7927)
+= -1.3162711647
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7951) = -8/1173*pi*sqrt(7951)
+= -1.9105249970
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 7963) = 2/119*pi*sqrt(7963)
+= 4.7116309380
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8087) = -8/255*pi*sqrt(8087)
+= -8.8632581933
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8123) = 8/2669*pi*sqrt(8123)
+= 0.8486908355
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8167) = -4/323*pi*sqrt(8167)
+= -3.5159170431
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8171) = -2/289*pi*sqrt(8171)
+= -1.9652582625
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8191) = 8/187*pi*sqrt(8191)
+= 12.1637284492
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8231) = 4/459*pi*sqrt(8231)
+= 2.4838392142
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8291) = -8/2635*pi*sqrt(8291)
+= -0.8684857514
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8387) = -8/1717*pi*sqrt(8387)
+= -1.3405187288
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8443) = 1/153*pi*sqrt(8443)
+= 1.8867173210
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8527) = -8/1955*pi*sqrt(8527)
+= -1.1871107272
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8539) = -1/68*pi*sqrt(8539)
+= -4.2691800055
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8563) = -8/1241*pi*sqrt(8563)
+= -1.8740494668
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8599) = 8/357*pi*sqrt(8599)
+= 6.5282325726
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8647) = -4/289*pi*sqrt(8647)
+= -4.0433817891
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8663) = 8/425*pi*sqrt(8663)
+= 5.5040844261
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8699) = 8/765*pi*sqrt(8699)
+= 3.0641716488
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8707) = -4/493*pi*sqrt(8707)
+= -2.3784674753
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8731) = -8/493*pi*sqrt(8731)
+= -4.7634864537
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8779) = 4/289*pi*sqrt(8779)
+= 4.0741268399
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8783) = 4/119*pi*sqrt(8783)
+= 9.8965618685
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8803) = 8/969*pi*sqrt(8803)
+= 2.4335004650
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8863) = -8/1479*pi*sqrt(8863)
+= -1.5997866205
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8867) = 8/1275*pi*sqrt(8867)
+= 1.8561711965
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8971) = -8/969*pi*sqrt(8971)
+= -2.4566116721
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 8999) = 8/391*pi*sqrt(8999)
+= 6.0976182070
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9007) = -8/1615*pi*sqrt(9007)
+= -1.4769215058
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9067) = 8/153*pi*sqrt(9067)
+= 15.6415661874
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9151) = 1/374*pi*sqrt(9151)
+= 0.8035493390
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9187) = 1/306*pi*sqrt(9187)
+= 0.9840457826
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9203) = -8/1887*pi*sqrt(9203)
+= -1.2777111083
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9311) = 8/1717*pi*sqrt(9311)
+= 1.4124325837
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9319) = 2/731*pi*sqrt(9319)
+= 0.8297497826
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9323) = 1/119*pi*sqrt(9323)
+= 2.5490640814
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9343) = -8/119*pi*sqrt(9343)
+= -20.4143742703
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9391) = 4/391*pi*sqrt(9391)
+= 3.1145049604
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9463) = 4/969*pi*sqrt(9463)
+= 1.2615384943
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9479) = -8/1071*pi*sqrt(9479)
+= -2.2847129877
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9491) = 4/153*pi*sqrt(9491)
+= 8.0015554629
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9547) = 8/1581*pi*sqrt(9547)
+= 1.5532503174
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9551) = 8/459*pi*sqrt(9551)
+= 5.3512050979
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9619) = 8/85*pi*sqrt(9619)
+= 28.9991919300
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9679) = 8/3111*pi*sqrt(9679)
+= 0.7947949399
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9719) = 8/561*pi*sqrt(9719)
+= 4.4165971665
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9787) = -8/1411*pi*sqrt(9787)
+= -1.7621287626
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9803) = 4/595*pi*sqrt(9803)
+= 2.0910884326
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9871) = -4/1275*pi*sqrt(9871)
+= -0.9792199551
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9883) = 8/17*pi*sqrt(9883)
+= 146.9722476797
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9887) = -8/289*pi*sqrt(9887)
+= -8.6471757122
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9923) = -8/1547*pi*sqrt(9923)
+= -1.6183447440
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9931) = -4/595*pi*sqrt(9931)
+= -2.1046960657
+L(sym^2(f),2)/(L(f,1)*L(f TENSOR chi_l,1)) of (l = 9967) = -1/187*pi*sqrt(9967)
+= -1.6772217872
